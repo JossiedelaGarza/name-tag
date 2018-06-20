@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+body {
+  background: gray;
+}
+.name-tag {
+ background:#BB0000;
+ border-radius: 25px;
+ width:450px;
+ margin-left:auto;
+ margin-right:auto;
+ font-family: sans-serif;
+  box-shadow: 0 0 20px #fff 
+}
+
+.name-tag-title {
+  color: white;
+  text-align: center;
+  padding:10px 0;
+}
+
+.name-tag-name {
+  background: #fff;
+  text-align:center;
+  font-family:times;
+  font-size:48px;
+  font-weight: bold;
+  height:100px;
+  text-transform: capitalize;
+  padding:10px;
+   
+
+   
+  
+}
+
+
+.name-tag-footer {
+  padding:26px;
+}
+
+
+.name-tag h1,
+.name-tag h2{
+   margin:0;
+}
+
+form{
+  text-align:center;
+  padding:50px;
+}
+
+input#name {
+  margin:auto;
+  botder:1px #ccc solid;
+  border-radius:25px;
+  text-align:center;
+  font-size:24px;
+  padding:5px 0;
+  box-shadow: inset 0 1px 2px #fff;
+}
